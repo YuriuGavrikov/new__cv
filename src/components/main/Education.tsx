@@ -37,7 +37,7 @@ export default function Education() {
           </div>
         </div>
         <div className="design_img">
-          <img src="/design/design_img/3.png" alt="" />
+          <img src="design/design_img/3.png" alt="" />
         </div>
       </div>
     </>

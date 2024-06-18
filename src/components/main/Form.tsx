@@ -22,7 +22,7 @@ export default function Form() {
           </div>
         </div>
         <div className="design_img">
-          <img src="/design/design_img/2.png" alt="" />
+          <img src="design/design_img/2.png" alt="" />
         </div>
       </div>
     </>

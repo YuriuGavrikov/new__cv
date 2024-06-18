@@ -11,7 +11,7 @@ export default function Contacts() {
         </div>
 
         <div className="design_img">
-          <img src="/design/design_img/4.png" alt="" />
+          <img src="design/design_img/4.png" alt="" />
         </div>
       </div>
     </>

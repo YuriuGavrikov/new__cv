@@ -30,7 +30,7 @@ export default function Skills() {
           </div>
         </div>
         <div className="design_img">
-          <img src="/design/design_img/1.png" alt="" />
+          <img src="design/design_img/1.png" alt="" />
         </div>
       </div>
     </>

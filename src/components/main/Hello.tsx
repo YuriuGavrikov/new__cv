@@ -4,7 +4,7 @@ export default function Hello() {
     <>
       <div className="hello">
         <div className="hello__img">
-          <img className="img" src="/img/hello.JPG" alt="" />
+          <img className="img" src="img/hello.JPG" alt="" />
         </div>
         <div className="hello__content">
           <div className="hello__title dot">Юрий Гавриков</div>
