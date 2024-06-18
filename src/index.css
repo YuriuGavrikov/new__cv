@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@300;500;700&display=swap");
+
+/* 
+576px
+768px
+992px
+1200px
+1400px 
+*/
+
+:root {
+  --designer-color: rgb(0, 184, 0);
+  --text-color: rgb(60, 60, 60);
+  --border: rgb(122, 122, 122);
+}
+
+html {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+/* убираем масштабирование на iphone при нажатии на input */
+input,
+textarea,
+select {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* --------------------------- Layout --------------------------------- */
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.dot::after {
+  content: ".";
+  color: var(--designer-color);
+}
+
+.design_img {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 80px;
+}
+.design_img img {
+  width: 100%;
+}
+
+.layout__title {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 100%;
+}
+
+@media (max-width: 1200px) {
+  .layout__title {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .design_img {
+    display: none;
+  }
+}

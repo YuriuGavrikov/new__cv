@@ -1,0 +1,42 @@
+.education {
+  position: relative;
+  display: flex;
+  gap: 30px;
+}
+.education__hello {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.title {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 100%;
+}
+
+.education__hello__desc {
+  font-size: 20px;
+}
+.education__items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.education__item {
+}
+.education__item__title {
+  font-size: 30px;
+}
+.education__item__desc {
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 576px) {
+  .education {
+    flex-direction: column;
+  }
+}

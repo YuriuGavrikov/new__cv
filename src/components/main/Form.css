@@ -1,0 +1,89 @@
+.form {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.form__title {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+}
+.form__inputs {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+  gap: 20px;
+}
+
+.form__inputs input,
+textarea {
+  padding: 20px;
+}
+
+.form__contacts {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 0;
+  gap: 20px;
+}
+.form__contacts input {
+  height: 65px;
+  border: 1px solid var(--border);
+}
+.form__text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  flex-basis: 0;
+  gap: 20px;
+}
+
+.form__name {
+}
+.form__tg {
+}
+.form__message {
+  resize: none;
+  height: 150px;
+  border: 1px solid var(--border);
+}
+.form__btn {
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid var(--border);
+}
+.form__btn:hover {
+  box-shadow: 2px 2px 0px var(--designer-color);
+}
+
+@media (max-width: 1200px) {
+  .form {
+    flex-direction: column;
+    gap: 0;
+  }
+  .form__title {
+    flex-direction: row;
+    height: 80px;
+    gap: 10px;
+  }
+  .form__inputs {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .form__inputs {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+    gap: 10px;
+  }
+  .form__title {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    gap: 10px;
+  }
+}

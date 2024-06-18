@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #ffffff;
+
+  padding: 20px 0;
+}
+
+.header__logo {
+  font-size: 30px;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.nav__item {
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 576px) {
+  .nav {
+    gap: 10px;
+  }
+}
