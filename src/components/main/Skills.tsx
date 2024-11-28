@@ -2,7 +2,7 @@ import "./Skills.css";
 export default function Skills() {
   return (
     <>
-      <div className="skills">
+      <section className="skills">
         <div className="skills__hello">
           <div className="layout__title dot">Навыки</div>
           <div className="skills__hello__desc">
@@ -32,7 +32,7 @@ export default function Skills() {
         <div className="design_img">
           <img src="design/design_img/1.png" alt="" />
         </div>
-      </div>
+      </section>
     </>
   );
 }

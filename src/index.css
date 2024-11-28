@@ -76,7 +76,7 @@ button {
   position: absolute;
   bottom: -10px;
   left: 0;
-  width: 80px;
+  width: 60px;
 }
 .design_img img {
   width: 100%;
@@ -95,8 +95,15 @@ button {
     line-height: 100%;
   }
 }
+
 @media (max-width: 576px) {
   .design_img {
     display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .link_hover:hover {
+    text-shadow: 2px 1px var(--designer-color);
   }
 }

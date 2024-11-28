@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <div className="container sticky">
-        <div className="header">
+        <header className="header">
           <div className="header__logo dot">Юрий</div>
           <nav className="nav">
             <div className="nav__item">
@@ -14,7 +14,7 @@ export default function Header() {
               <a href="">Портфолио</a>
             </div>
           </nav>
-        </div>
+        </header>
       </div>
     </>
   );

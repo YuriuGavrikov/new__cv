@@ -2,7 +2,7 @@ import "./Hello.css";
 export default function Hello() {
   return (
     <>
-      <div className="hello">
+      <section className="hello">
         <div className="hello__img">
           <img className="img" src="img/hello.JPG" alt="" />
         </div>
@@ -14,7 +14,7 @@ export default function Hello() {
             повысить свои навыки веб-разработчика.
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

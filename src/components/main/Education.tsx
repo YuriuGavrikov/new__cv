@@ -2,7 +2,7 @@ import "./Education.css";
 export default function Education() {
   return (
     <>
-      <div className="education">
+      <section className="education">
         <div className="education__hello">
           <div className="layout__title dot">Образование</div>
           <div className="education__hello__desc">
@@ -39,7 +39,7 @@ export default function Education() {
         <div className="design_img">
           <img src="design/design_img/3.png" alt="" />
         </div>
-      </div>
+      </section>
     </>
   );
 }
